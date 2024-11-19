@@ -1,0 +1,33 @@
+{
+  "name": "vault",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "start": "node dist/index.js"
+  },
+  "bin": {
+    "chetan-vault": "./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "commander": "^12.1.0",
+    "copy-to-clipboard": "^3.3.3",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "fs-extra": "^11.2.0",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/commander": "^2.12.5",
+    "@types/dotenv": "^8.2.3",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.9.0",
+    "@types/prompt-sync": "^4.2.3"
+  }
+}

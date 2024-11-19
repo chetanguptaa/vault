@@ -1,0 +1,5 @@
+master.hash
+vault.json
+node_modules
+dist
+.env
